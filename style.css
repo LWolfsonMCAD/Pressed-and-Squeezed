@@ -15,6 +15,7 @@ h1 {
   text-align: center;
 }
 
+/* Start main navigation */
 nav {
 	position: relative;
 	text-align: center;
@@ -36,6 +37,8 @@ nav ul li {
 	padding-left: 1em;
 	padding-right: 2em;
 }
+/* End hardcoded navigation */
+
 
 body {
 	font-family: merriweather, serif;
@@ -69,6 +72,7 @@ section > section h1 {
 	font-size: 2em;
 }
 
+/* Start footer */
 footer {
 	font-size: .8em;
 	border-top: 1px dotted #ccc;
@@ -87,11 +91,16 @@ footer h1 {
 footer p {
 	line-height: .5;
 }
+/* End footer */
+
 
 .read-more {
 	display: block;
 	text-align: right;
 }
+
+
+/* Start clearfix to clear floats */
 
 .clearfix:before,
 .clearfix:after {
@@ -102,3 +111,4 @@ footer p {
 .clearfix:after {
 	clear: both;
 }
+/* End clearfix */
